@@ -9,47 +9,35 @@
   height: 100vh;
   position: relative;
 }
-.square1 {
+
+.square {
   width: 400px;
   height: 200px;
-  background-color: rgb(25, 25, 148);
   position: absolute;
+  border: solid 1px black;
+}
+.square1 {
+  background-color: rgb(25, 25, 148);
   left: 0;
   top: 0;
 }
 .square2 {
-  border: solid 1px black;
-  width: 400px;
-  height: 200px;
   background-color: rgb(149, 238, 16);
-  position: absolute;
   right: 0;
   top: 0;
 }
 .square3 {
-  border: solid 1px black;
-  width: 400px;
-  height: 200px;
   background-color: rgb(26, 195, 142);
-  position: absolute;
   right: 0;
   bottom: 0;
 }
 .square4 {
-  border: solid 1px black;
-  width: 400px;
-  height: 200px;
   background-color: rgb(217, 18, 177);
-  position: absolute;
   left: 0;
   bottom: 0;
 }
 .square5 {
-  border: solid 1px black;
-  width: 400px;
-  height: 200px;
   background-color: rgb(221, 92, 17);
-  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
